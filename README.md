@@ -1,29 +1,25 @@
-# 🧠 Wafer Die Scratch Detection using CNN
+# Wafer Die Scratch Detection using CNN
 
-This project implements a **Convolutional Neural Network (CNN)** to identify **scratched dies** on a semiconductor wafer based on input maps showing good and bad dies.
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Siliconwafer_2.jpg" width="400" alt="Wafer Example">
-</p>
+This project implements a Convolutional Neural Network (CNN) to identify scratched dies on a semiconductor wafer.
 
 ---
 
-## 🧾 Description
+## Overview
 
-Scratches on wafers can lead to multiple defective dies, which must be automatically identified. The goal of this project is to predict whether each die on a wafer is on a scratch, using a CNN trained on labeled wafer data.
+Scratches on wafers can result in defective dies which must be detected automatically. This project trains a CNN to predict for each die on a wafer, whether it's on a scratch or not.
 
-The model classifies each pixel (die) based on a binary label: **scratched** or **not scratched**.
+Solving this problem I have implemented different techniques learned in my ML and Deep Learning courses, while also learning new things on my own, the main one of them being the score given on each wafer using the F1-metric.
 
 ---
 
-## 📌 Features
+## Key Features
 
-- 🧠 Custom **U-Net-like CNN architecture**
-- 🔁 **Dropout** regularization
-- 📊 **F1-score** based early stopping
-- 🧪 **Hyperparameter tuning** via grid search
-- 📉 Training & validation loss tracking
-- ✅ Binary segmentation output
+- Custom CNN architecture
+- Dropout regularization
+- F1-score-based early stopping
+- Hyperparameter tuning via grid search
+- Training and validation loss tracking
+- Binary segmentation output (per-pixel classification)
 
 ---
 
